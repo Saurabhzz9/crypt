@@ -4,9 +4,9 @@ import { CoinDetailComponent } from './coin-detail/coin-detail.component';
 import { CoinListComponent } from './coin-list/coin-list.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'coin-list',pathMatch:'full'},
-  {path:'coin-list', component: CoinListComponent},
-  {path:'coin-detail/:id', component:CoinDetailComponent}
+  {path:'',redirectTo:'crypt/coin-list',pathMatch:'full'},
+  {path:'crypt/coin-list', component: CoinListComponent},
+  {path:'crypt/coin-detail/:id', component:CoinDetailComponent}
 ];
 
 @NgModule({
