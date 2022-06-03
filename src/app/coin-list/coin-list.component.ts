@@ -56,7 +56,7 @@ export class CoinListComponent implements OnInit {
   }
 
   gotoDetails(row:any){
-   this.route.navigate(['crypt/coin-detail', row.id]);
+   this.route.navigate(['coin-detail', row.id]);
   }
 
 }
